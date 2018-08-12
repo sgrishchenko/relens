@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`relensReducer update should accept the action with the type "RELENS_UPDATE" and set the value along the specified path 1`] = `
+Object {
+  "some": Object {
+    "deep": Object {
+      "prop": "value",
+    },
+  },
+}
+`;
+
+exports[`relensReducer update should not affect the values of other fields of the previous state 1`] = `
+Object {
+  "prop": "some other value",
+  "some": Object {
+    "deep": Object {
+      "prop": "value",
+    },
+  },
+}
+`;

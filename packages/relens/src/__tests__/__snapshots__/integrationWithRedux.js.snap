@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`integration With Redux standard usage flow: [0] initial state 1`] = `
+Object {
+  "prop": "some initial value",
+}
+`;
+
+exports[`integration With Redux standard usage flow: [1] state after the work of the rootReducer 1`] = `
+Object {
+  "prop": "some state value",
+}
+`;
+
+exports[`integration With Redux standard usage flow: [2] state after the work of the relensReducer 1`] = `
+Object {
+  "prop": "some state value",
+  "some": Object {
+    "deep": Object {
+      "prop": Object {
+        "42": "value",
+      },
+    },
+  },
+}
+`;

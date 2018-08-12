@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lensAction update should accept the path as the function of the properties 1`] = `
+Object {
+  "payload": Object {
+    "path": Array [
+      "some",
+      "deep",
+      "prop",
+      42,
+    ],
+    "value": "value",
+  },
+  "type": "RELENS_UPDATE",
+}
+`;
+
+exports[`lensAction update should create serializable FLUX action with the path and value specified in the payload 1`] = `
+Object {
+  "payload": Object {
+    "path": Array [
+      "some",
+      "deep",
+      "prop",
+    ],
+    "value": "value",
+  },
+  "type": "RELENS_UPDATE",
+}
+`;

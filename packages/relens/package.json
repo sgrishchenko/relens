@@ -1,0 +1,29 @@
+{
+  "name": "relens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "index.d.ts",
+  "author": "Sergei Grishchenko <s.i.grishchenko@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.d.ts",
+    "lib/**",
+    "es/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgrishchenko/relens.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sgrishchenko/relens/issues"
+  },
+  "homepage": "https://github.com/sgrishchenko/relens#readme",
+  "devDependencies": {
+    "redux": "^4.0.0"
+  }
+}
